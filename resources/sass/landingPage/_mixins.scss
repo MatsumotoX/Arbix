@@ -1,0 +1,88 @@
+// center vertically and/or horizontally an absolute positioned element
+
+@mixin center($xy:xy) {
+  @if $xy == xy {
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    @include transform(translateX(-50%) translateY(-50%));
+  } @else if $xy == x {
+    left: 50%;
+    right: auto;
+    @include transform(translateX(-50%));
+  } @else if $xy == y {
+    top: 50%;
+    bottom: auto;
+    @include transform(translateY(-50%));
+  }
+}
+
+// antialiasing mode font rendering
+
+@mixin font-smoothing {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@mixin transition($x, $y : null) {
+  -webkit-transition: $x;
+  -moz-transition: $x;
+  transition: $x;
+}
+
+@mixin transform($x) {
+  -webkit-transform: $x;
+  -moz-transform: $x;
+  -ms-transform: $x;
+  -o-transform: $x;
+  transform: $x;
+}
+
+@mixin backface-visibility($x) {
+  -webkit-backface-visibility: $x;
+  backface-visibility: $x;
+}
+
+@mixin transform-origin($x) {
+  -webkit-transform-origin: $x;
+  -moz-transform-origin: $x;
+  -ms-transform-origin: $x;
+  -o-transform-origin: $x;
+  transform-origin: $x;
+}
+
+@mixin appearance($x) {
+  -webkit-appearance: $x;
+  -moz-appearance: $x;
+  -ms-appearance: $x;
+  -o-appearance: $x;
+  appearance: $x;
+}
+
+@mixin placeholder {
+  ::-webkit-input-placeholder {
+    color: #777c81;
+  }
+  ::-moz-placeholder {
+    color: #777c81;
+  }
+  ::-moz-placeholder {
+    color: #777c81;
+  }
+  ::-ms-input-placeholder {
+    color: #777c81;
+  }
+}
+// border radius
+
+@mixin border-radius($radius:.25em) {
+  border-radius: $radius;
+}
+
+// antialiasing mode font rendering
+
+@mixin font-smoothing {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

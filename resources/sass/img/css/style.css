@@ -1,0 +1,46 @@
+/* --------------------------------
+
+Generated using nucleoapp.com
+
+-------------------------------- */
+.landing {
+    display: inline-block;
+    background-image: url(../icons.svg);
+    background-repeat: no-repeat;
+}
+
+.landing.lp-home-2 {
+    background-position: -0px 0px;
+    height: 16px;
+    width: 16px;
+}
+
+.landing.lp-money-12 {
+    background-position: -16px 0px;
+    height: 16px;
+    width: 16px;
+}
+
+.landing.lp-ranking {
+    background-position: -32px 0px;
+    height: 16px;
+    width: 16px;
+}
+
+.landing.lp-wrench-tool {
+    background-position: -48px 0px;
+    height: 16px;
+    width: 16px;
+}
+
+.landing.lp-lock {
+    background-position: -64px 0px;
+    height: 16px;
+    width: 16px;
+}
+
+.landing.lp-box-2 {
+    background-position: -80px 0px;
+    height: 16px;
+    width: 16px;
+} 

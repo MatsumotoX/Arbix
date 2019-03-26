@@ -1,0 +1,27 @@
+.cd-logo {
+  float: left;
+  display: block;
+  margin: 5px 0 0 5%;
+}
+.cd-logo img {
+  display: block;
+  height: 3.0rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .cd-logo img {
+    height: 3.5rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .cd-logo {
+    margin: 5px -18px 0 21px;
+  }
+}
+
+@media only screen and (min-width: 1170px) {
+  .cd-logo {
+    margin: 17px 15px 0 40px;
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "/js/views/app.js": "/js/views/app.js",
+    "/js/views/hrs/customers/view.js": "/js/views/hrs/customers/view.js",
+    "/js/views/landing/index.js": "/js/views/landing/index.js",
+    "/js/views/lines/createRichMenu.js": "/js/views/lines/createRichMenu.js",
+    "/js/views/lines/index.js": "/js/views/lines/index.js",
+    "/js/views/manifest.js": "/js/views/manifest.js",
+    "/js/views/preferences/app.js": "/js/views/preferences/app.js",
+    "/css/app.css": "/css/app.css",
+    "/css/landing.css": "/css/landing.css",
+    "/css/sgrid.css": "/css/sgrid.css",
+    "/js/views/properties/create.js": "/js/views/properties/create.js",
+    "/js/views/properties/index.js": "/js/views/properties/index.js",
+    "/js/views/properties/show.js": "/js/views/properties/show.js",
+    "/js/views/vendor.js": "/js/views/vendor.js",
+    "/js/navigation-loader.js": "/js/navigation-loader.js",
+    "/js/landingPage.js": "/js/landingPage.js",
+    "/css/theme.css": "/css/theme.css"
+}
